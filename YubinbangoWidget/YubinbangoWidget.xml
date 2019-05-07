@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="YubinbangoWidget.widget.YubinbangoWidget" offlineCapable="true" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>YubinbangoWidget</name>
+  <description>YubinbangoWidget using https://github.com/yubinbango/yubinbango</description>
+  <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAA7SURBVDhPY/wPBAwUACYoTTaAu+CdrCpYgFgg
+9Pg2mKaeC8gFwz0MYK6C2YYNUOyCUQOoYACFSZmBAQDGVyEDFCjplAAAAABJRU5ErkJggg==</icon>
+  <properties>
+    <property key="zipcode1" type="string" required="true">
+      <caption>Zipcode1</caption>
+      <category>Properties</category>
+      <description>TextBox name of Zipcode</description>
+    </property>
+    <property key="address1" type="string" required="true">
+      <caption>Address1</caption>
+      <category>Properties</category>
+      <description>TextBox name of Address</description>
+    </property>
+  </properties>
+</widget>
