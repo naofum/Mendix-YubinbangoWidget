@@ -26,13 +26,14 @@ define([
             logger.debug(this.id + ".postCreate");
             this._insertYubin();
 
-            $('.mx-name-' + this.address1 + ' input').attr('name', this.address1);
-            $('.mx-name-' + this.zipcode1 + ' input').attr('name', this.zipcode1);
-            $('.mx-name-' + this.zipcode1 + ' input').attr('onkeyup', 'AjaxZip3.zip2addr("' + this.zipcode1 + '", "", "' + this.address1 + '", "' + this.address1 + '");');
         },
 
         update: function (obj, callback) {
             logger.debug(this.id + ".update");
+
+            $('div.form-group.mx-name-' + this.address1 + ' input').attr('name', this.address1);
+            $('div.form-group.mx-name-' + this.zipcode1 + ' input').attr('name', this.zipcode1);
+            $('div.form-group.mx-name-' + this.zipcode1 + ' input').attr('onkeyup', 'AjaxZip3.zip2addr("' + this.zipcode1 + '", "", "' + this.address1 + '", "' + this.address1 + '");');
 
             this._contextObj = obj;
             callback();

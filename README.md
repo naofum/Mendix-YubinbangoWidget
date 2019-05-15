@@ -1,6 +1,6 @@
 # Mendix-YubinbangoWidget
 
-The **Yubinbango widget** can be used to enter address from yubinbango/postalcode/zipcode in Japan.
+The **Yubinbango widget** can be used to enter address from yubinbango/postalcode/zipcode in **Japan**.
 
 This module use this library (https://ajaxzip3.github.io/), and search address from zipcode on the client side only.
 
@@ -25,4 +25,5 @@ Licensed under the Apache license.
 
 
 ## Version history
-0.1 first functions for YubinbangoWidget implemented
+- 1.0.0 first release
+- 0.1 first functions for YubinbangoWidget implemented
