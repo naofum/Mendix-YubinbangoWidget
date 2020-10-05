@@ -25,5 +25,7 @@ Licensed under the Apache license.
 
 
 ## Version history
+- 1.0.2 Mx 8
+- 1.0.1 Mx 7.23
 - 1.0.0 first release
 - 0.1 first functions for YubinbangoWidget implemented
